@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jornada Milha</title>
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/form.css">
 </head>
 <body>
 
@@ -20,25 +21,16 @@
           <a href="#destino" class="button_section_img">Veja os destinos</a>
         </div>
       </section>
+      <section class="container">
+        <div class="section_search">
+        <div class="form">
+          <input type="text" id="place">
+          <button class="section_search_button"><img src="./assets/images/icon_search.svg" alt="icone de pesquisa" class="section_search_img"></button>
+        </div>
+       </div>
+      </section>
       <section class="container sectionDiv" id="destino"> 
-        <div class="section_cart section_cart_destination">
-          <img src="assets/images/madri.jpg" alt="foto de madri" class="img_destinos">
-          <p class="section_destino_cart_name">Madri</p>
-          <p class="section_destino_cart_name">R$500</p>
-          <a href="#" class="button_section_img btnDestino">Detalhes</a>
-        </div>
-        <div class="section_cart section_cart_destination">
-          <img src="assets/images/portugal.jpg" alt="foto de portugal" class="img_destinos">
-          <p class="section_destino_cart_name">Portugal</p>
-          <p class="section_destino_cart_name">R$500</p>
-          <a href="#" class="button_section_img btnDestino">Detalhes</a>
-        </div>
-        <div class="section_cart section_cart_destination">
-          <img src="assets/images/indonesia.jpg" alt="foto de indonesia" class="img_destinos">
-          <p class="section_destino_cart_name">Indonésia</p>
-          <p class="section_destino_cart_name">R$500</p>
-          <a href="#" class="button_section_img btnDestino">Detalhes</a>
-        </div>
+       
       </section>
 
       <section class="container sectionDiv">
@@ -70,5 +62,6 @@
     <p>Desenvolvido por Angélica Shigematsu</p>
     <p>&copy; 2024. Todos os direitos autorais.</p>
   </footer>
+  <script src="index.js"></script>
 </body>
 </html>
