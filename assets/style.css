@@ -136,7 +136,7 @@ footer {
   text-align: center;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 900px) {
 
   .container {
     padding: 5%;
@@ -180,9 +180,9 @@ footer {
     width: 250%;
   }
 }
-
-@media(min-width: 800px) {
+/* 
+@media(min-width: 900px) {
   .sectionDiv {
     width: 50%;
   }
-}
+} */

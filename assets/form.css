@@ -1,0 +1,33 @@
+input {
+  padding: 10px 5px;
+  width: 100%;
+  border: 2px solid #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 20px;
+}
+
+.section_search {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  background-color: var(--secondColor);
+  width: 96%;
+  height: 100px;
+}
+.section_search_img {
+  width: 60%;
+  padding: 10%;
+}
+
+.section_search_button {
+  background-color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  cursor: pointer;
+}
